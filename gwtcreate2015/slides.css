@@ -311,7 +311,7 @@ li {
   color: #E9E9E9;
 }
 
-.right {
+div.right, section.right, img.right {
     position: absolute;
     top: 10%;
     right: 40px;
@@ -332,18 +332,18 @@ div.bottom, img.bottom {
     max-width: 200px;
 }
 
- ul.none {
-   list-style: none;
- }
- li.none {
-   list-style: none;
- }
- li.level1 {
-   list-style: none;
-   font-size: 88%;
-   margin-left: 1em;
-   line-height: 1.1em;
-   color: #6E5E5E;
- }
- button {
- }
+ul.none {
+  list-style: none;
+}
+li.none {
+  list-style: none;
+}
+li.level1 {
+  list-style: none;
+  font-size: 88%;
+  margin-left: 1em;
+  line-height: 1.1em;
+  color: #6E5E5E;
+}
+button {
+}
