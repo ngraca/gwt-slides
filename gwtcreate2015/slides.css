@@ -40,6 +40,7 @@ body {
   font-size: 140%;
   font-family: Cabin;
   overflow: hidden;
+  margin: 0px;
 }
 
 h4, h5 {
@@ -310,13 +311,27 @@ li {
   color: #E9E9E9;
 }
 
-section.right, div.right {
+.right {
     position: absolute;
     top: 10%;
     right: 40px;
     opacity: 0.8;
     min-width: 20%;
- }
+}
+div.right, img.right {
+    margin: 10px;
+    border: 1px solid;
+    padding:20px;
+    background: #E43333;
+    border-radius: 4px;
+}
+div.bottom, img.bottom {
+	top: initial;
+	bottom: 10%;
+	min-width: 100px;
+    max-width: 200px;
+}
+
  ul.none {
    list-style: none;
  }
